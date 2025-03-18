@@ -1,0 +1,29 @@
+{
+  "users": {
+    "testUser": {
+      "books": [
+        {
+          "title": "1984",
+          "author": "George Orwell",
+          "borrower": "Alice",
+          "dueDate": "2025-04-15",
+          "category": "Fiction"
+        },
+        {
+          "title": "A Brief History of Time",
+          "author": "Stephen Hawking",
+          "borrower": "Bob",
+          "dueDate": "2025-04-20",
+          "category": "Science"
+        },
+        {
+          "title": "Sapiens",
+          "author": "Yuval Noah Harari",
+          "borrower": "Charlie",
+          "dueDate": "2025-04-25",
+          "category": "History"
+        }
+      ]
+    }
+  }
+}

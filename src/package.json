@@ -1,0 +1,14 @@
+{
+  "name": "book-lending-system",
+  "version": "1.0.0",
+  "description": "A simple book lending system using Node.js",
+  "main": "src/librarySystem.js",
+  "scripts": {
+    "start": "node testScript.js",
+    "test": "node  testScript.js"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {}
+}
