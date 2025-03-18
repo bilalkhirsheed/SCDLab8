@@ -22,7 +22,11 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          cd BookLendingSystem  # Go to your project folder
+          npm install
 
-      - name: Run a basic Node.js script
-        run: node testScript.js
+      - name: Run tests
+        run: |
+          cd BookLendingSystem  # Go to your project folder
+          npm test
