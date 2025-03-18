@@ -23,10 +23,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd BookLendingSystem  # Go to your project folder
+          cd src
           npm install
 
-      - name: Run tests
+      - name: Run Tests
         run: |
-          cd BookLendingSystem  # Go to your project folder
-          npm test
+          cd src
+          node testScript.js
